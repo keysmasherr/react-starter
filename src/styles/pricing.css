@@ -1,0 +1,33 @@
+.pricing-container {
+  width: 100vw;
+}
+
+.pricing-container h2, .pricing-container p {
+  text-align: center;
+}
+
+.pricing-card-area {
+  padding: 16px 24px;
+  width: 350px;
+  cursor: pointer;
+}
+
+.price {
+  font-family: "gBold";
+  font-size: 3.5rem;
+  color: #815AFD;
+}
+
+.price-rate {
+  color: #8E8E8E;
+  text-transform: lowercase;
+  font-size: 1.4rem;
+  display: inline-block;
+  padding-left: 4px;
+}
+@media screen and (max-width: 500px) {
+  .pricing-card-area {
+    width: 300px;
+  }
+}
+

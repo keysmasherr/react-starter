@@ -1,0 +1,82 @@
+.card {
+  background-color: #886cc0;
+  position: relative;
+  color: White;
+}
+
+.downloadIcon {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.cardHeaderTypography {
+  font-weight: 700;
+  padding: 18px 26px 0;
+}
+
+.isqDetailsTable {
+  width: 100%;
+}
+
+.isqDetailsTableContainer {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+.shortlistItem {
+  display: flex;
+  align-items: center;
+}
+
+.highHighlights, .mediumHighlights, .lowHighlights {
+  border-radius: 18px;
+  margin-bottom: 8px;
+}
+
+.highHighlights {
+  background: #E0F7FA;
+}
+.mediumHighlights {
+  background: #E8F5E9;
+}
+.lowHighlights {
+  background: #FFF8E1;
+}
+
+.headerHint {
+  font-size: 12px;
+  font-weight: lighter;
+  opacity: 0.5;
+  text-transform: initial;
+}
+
+.infoHeader {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.savedCard {
+  background-color: #F1F8E9;
+}
+
+.draftCard {
+  background-color: #FFF3E0;
+}
+
+.projectCardContent {
+  padding: 16px 26px;
+}
+
+.projectCardActions {
+  background: white;
+  padding: 10px 26px;
+  font-weight: 600;
+  justify-content: space-between;
+}

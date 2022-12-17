@@ -1,0 +1,41 @@
+.about-us-cover {
+  width: 70%;
+  margin-top: 200px;
+  margin-left: 10%;
+}
+
+.about-us-cover img {
+  width: 100%;
+}
+
+
+@media screen and (max-width: 900px) {
+  .about-us-cover {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 90px;
+    width: 100%;
+  }
+  .about-us-cover img {
+    width: 70%;
+    margin-left: 15%;
+  }
+
+}
+
+.about-us-indicator {
+  border: none;
+  background-color: #EAE3FF;
+  height: 6px;
+  width: 30px;
+  margin-right: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: width 0.2s linear;
+}
+
+.about-us-indicator.active {
+  background-color: #815AFD;
+  width: 60px;
+}

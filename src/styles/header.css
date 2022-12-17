@@ -1,0 +1,30 @@
+.nav-link.MuiTypography-root {
+  color: #000;
+  font-family: 'gRegular';
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  padding: 0 10px 8px;
+  text-decoration: none;
+}
+
+.nav-link.active:after {
+  content: '';
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    bottom: 0;
+    background-color: #3AC3EC;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.try-beta-item {
+  background-color: #815AFD;
+  color: #fff;
+}
+
+.try-beta-item a.nav-link.MuiTypography-root {
+  color: #fff;
+}

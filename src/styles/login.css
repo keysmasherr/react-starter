@@ -1,0 +1,55 @@
+.login-card {
+  padding: 2rem;
+  width: 70%;
+  margin-left: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  max-width: 400px;
+  width: 100%;
+}
+
+.form-heading {
+  font-family: "gBold";
+  margin: 32px 0 48px; 
+  padding-left: 16px;
+}
+
+.form-divider {
+  width: calc(100% - 32px);
+  margin-top: 20px;
+  margin-bottom: 8px;
+  border-color: #EFEFEF;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px;
+}
+
+.signup-link {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.otp-input:last-child {
+  margin-right: 0px !important;
+}
+.otp-input:focus-visible {
+  background-color: white !important;
+}
+
+.abcRioButtonLightBlue {
+  width: calc(100% - 16px) !important;
+
+}
+
+@media screen and (max-width: 1200px) {
+  .login-card {
+    width: 100%;
+  }
+}
